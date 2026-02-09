@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+  height: 100vh;
+    background-color: rgba(140, 72, 125, 0.419);
+    
+}
+.dark-mode{
+    background-color: rgba(0, 0, 0, 0.812);
+}
+
+
+
+.modes{
+    width: 80px;
+    height: 60px;
+    margin: 12px 20px;
+
+  display: flex;
+  justify-self: start;
+  align-self: start;
+}
+.modes span{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+}
+.modes span i{
+    font-size: 1.5rem;
+    
+
+}
+.modes #light{
+    display: none;
+}
+
+
+.contain{
+    
+       margin: 12px 20px;
+        background-color: rgba(234, 230, 230, 0.779);
+       max-width:540px;
+       padding: 16px;
+        border-radius: 20px;
+        box-shadow:4px 4px 20px  black;
+       display: flex;
+       flex-direction: column;
+     
+      
+
+    }
+    .contain p{
+        text-align: center;
+        color: rgb(97, 92, 92);
+        text-shadow: 2px 2px 2px rgba(63, 63, 63, 0.293);
+    }
+    .screen{
+    
+        
+     border-radius: 80px;
+        width:100%;
+        padding:18px;
+        height: 120px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        font-size:48px;
+        box-sizing: border-box;
+        background-color: rgba(36, 36, 36, 0.433);
+        color: aliceblue;
+               box-shadow: -2px -2px 10px rgba(231, 229, 229, 0.848),
+                   4px 4px 10px black;
+                 
+    }
+    .number span{
+        cursor: pointer;
+                     box-shadow: -2px -2px 10px rgb(231, 229, 229),
+                    4px 4px 10px black;
+    }
+    .number span{
+        
+        box-shadow: -2px -2px 10px rgb(231, 229, 229),
+                    4px 4px 10px black;
+        border-radius: 100px;
+        width:60px;
+        font-size:2rem;
+       padding: auto;
+        display:inline-block;
+        line-height: 60px;
+        text-align: center;
+        box-sizing: border-box;
+        margin: 6px;
+        background-color: rgb(149, 137, 149);
+        color: aliceblue;
+    }
+    #equal{
+       
+        box-shadow: -2px -2px 10px rgb(231, 229, 229),
+                    4px 4px 10px black;
+        border-radius: 20px;
+        width: 40%;
+        display: flex;
+       justify-self: center;
+       justify-content: center;
+
+
+    }
+    .number span:hover{
+        
+        color: rgb(5, 7, 8);
+    }
+    .number span:active{
+        color: rgb(1, 94, 175);
+        background-color: rgba(255, 255, 254, 0.155);
+    }
